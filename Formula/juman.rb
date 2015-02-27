@@ -11,6 +11,12 @@ class Juman < Formula
     system 'make', 'install'
   end
 
+  def patches
+    [
+      'https://www.dropbox.com/s/6dig8o3p2e76s9t/juman.patch'
+    ]
+  end
+
   def test
     system "#{bin}/juman", "-v"
   end

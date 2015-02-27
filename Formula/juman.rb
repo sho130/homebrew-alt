@@ -13,7 +13,7 @@ class Juman < Formula
 
   def patches
     [
-      'https://www.dropbox.com/s/6dig8o3p2e76s9t/juman.patch'
+      'https://aka-megane.com/juman.patch'
     ]
   end
 
